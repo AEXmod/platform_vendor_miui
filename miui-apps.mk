@@ -13,7 +13,7 @@
 # limitations under the License.
 
 #Miui Camera stuff
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
     vendor/miui/priv-app/MiuiCamera/etc/age_gender_bg:system/etc/age_gender_bg \
     vendor/miui/priv-app/MiuiCamera/etc/android_model_facea.dat:system/etc/android_model_facea.dat \
     vendor/miui/priv-app/MiuiCamera/etc/android_model_faceg.dat:system/etc/android_model_faceg.dat \
@@ -34,7 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/miui/priv-app/MiuiCamera/etc/gemini.xml:system/etc/device_features/gemini.xml
 
 PRODUCT_PACKAGES += \
-    MiCalc \
-    MiuiCamera
+    MiCalc
+#    MiuiCamera
 
 
